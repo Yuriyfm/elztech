@@ -86,7 +86,7 @@ class UserDetailSerializer(serializers.ModelSerializer):
         if user_id is None:
             raise serializers.ValidationError(
                 'An id is required to get user detail.')
-        if user_id.isdigit():
+        if not user_id.isdigit():
             raise serializers.ValidationError(
                 'id value must be integer.')
         try:
