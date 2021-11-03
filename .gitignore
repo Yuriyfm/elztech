@@ -1,0 +1,21 @@
+/.idea
+
+/__pycache__
+
+/authentication/__pycache__
+
+# exclude everything
+/authentication/migrations/
+
+# exception to the rule
+!/authentication/migrations/.gitkeep
+
+/complexes/__pycache__
+
+/complexes/migrations/
+
+!/complexes/migrations/.gitkeep
+
+/elztech_test/__pycache__
+
+/venv
